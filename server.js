@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
       { 'id': 3, 'user': 'Max', 'message': 'Hi, universe!' },
       { 'id':4 , 'user': 'Lee', 'message': 'Hi, universe!' },
       { 'id':5 , 'user': 'Ray', 'message': 'Hi, universe!' },
+      { 'id':6 , 'user': 'Bruce', 'message': 'Hi, universe!' },
     ];
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
